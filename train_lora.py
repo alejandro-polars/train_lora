@@ -6,7 +6,7 @@ Optimized for resource-constrained hardware using Unsloth & QLoRA.
 import torch
 from unsloth import FastLanguageModel, get_chat_template
 from datasets import load_dataset
-from tlr import SFTTrainer
+from trl import SFTTrainer
 from transformers import TrainingArguments
 
 # 1. Hardware & Model Architecture Optimization
